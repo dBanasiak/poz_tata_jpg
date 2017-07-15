@@ -1,5 +1,6 @@
-.navbar-inverse{
-
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
 }
 .navbar {
   margin-bottom: 0;
@@ -14,8 +15,15 @@ footer {
   background-color: #f2f2f2;
   padding: 25px;
 }
+.navbar-toggle{
+    color: #fff;
+}
 
-img-responsive{
-  display: block;
-  margin: 0 auto;
+#map {
+  height: 100%;
+}
+html, body {
+       height: 100%;
+       margin: 0;
+       padding: 0;
 }

@@ -9,6 +9,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="Stylesheet" type="text/css" href="css/style.css" />
   <link rel="icon" href="img/icon.png">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
 
@@ -31,27 +32,30 @@
         <li><a href="#">Pizzeria</a></li>
         <li><a href="#">Sklep</a></li>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
     </div>
   </div>
 </nav>
 
 <div class="container-fluid bg- text-center">
-  <h3>Główna apka</h3><br>
+  <h3>Znajdź nabliższe punkty w Twojej okolicy</h3><br>
   <div class="row">
     <div class="col-sm-4">
       <p>Serwis</p>
+      <center>
       <img src="button_img/tools.png" class="img-responsive" alt="Serwis">
+    </center>
     </div>
     <div class="col-sm-4">
       <p>Stacja rowerów</p>
+      <center>
       <img src="button_img/bikestation.png" class="img-responsive" alt="StacjaRowerów">
+      </center>
     </div>
     <div class="col-sm-4">
       <p>Biletomant</p>
+      <center>
       <img src="button_img/tickets.png" class="img-responsive" alt="Biletomat">
+      </center>
     </div>
   </div>
 </div><br>
@@ -60,21 +64,43 @@
   <div class="row">
     <div class="col-sm-4">
       <p>Trasy rowerowe</p>
+      <center>
       <img src="button_img/maproad.png" class="img-responsive" alt="TrasyRowerowe">
+      </center>
     </div>
     <div class="col-sm-4">
       <p>Pizzeria</p>
+      <center>
       <img src="button_img/pizza.png" class="img-responsive" alt="Pizzeria">
+    </center>
     </div>
     <div class="col-sm-4">
       <p>Sklep</p>
+      <center>
       <img src="button_img/shop.png" class="img-responsive" alt="Sklep">
+    </center>
     </div>
   </div>
 </div><br><br>
 
+<div id="map"></div>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 52.4004458, lng: 16.7615836},
+          zoom: 8
+        });
+      }
+    </script>
+    <script async defer
+     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArONNhtOMnsdgDNgtFCPMCZ2jv0L07tv0&callback=initMap">
+   </script>
+
+
+
 <footer class="container-fluid text-center">
-  <p>Footer Text</p>
+  <p>Damian Banasiak - Mikołaj Celka - Konrad Baranek - Konrad Linkowski</p>
 </footer>
 
 </body>

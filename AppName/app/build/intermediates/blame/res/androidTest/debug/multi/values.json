@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\Konrad Linkowski\\Desktop\\AppName\\poz_tata_jpg\\AppName\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\Users\\Konrad Linkowski\\.android\\build-cache\\2ede0d64090a6885850b812bc02934dbce3ac4e9\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    }
+]

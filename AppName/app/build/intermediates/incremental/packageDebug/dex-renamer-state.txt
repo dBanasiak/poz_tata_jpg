@@ -1,0 +1,7 @@
+#Sat Jul 15 22:00:58 CEST 2017
+base.0=C\:\\Users\\Konrad Linkowski\\Desktop\\AppName\\poz_tata_jpg\\AppName\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_095a037ef17c76dffd624f47fd4c2e0a75735432
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Konrad Linkowski\\Desktop\\AppName\\poz_tata_jpg\\AppName\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_21d1224dcfbbafa3368e6b0569d28ac81746259b\\classes.dex
+base.1=C\:\\Users\\Konrad Linkowski\\Desktop\\AppName\\poz_tata_jpg\\AppName\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_21d1224dcfbbafa3368e6b0569d28ac81746259b
+file.0=C\:\\Users\\Konrad Linkowski\\Desktop\\AppName\\poz_tata_jpg\\AppName\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_095a037ef17c76dffd624f47fd4c2e0a75735432\\classes.dex

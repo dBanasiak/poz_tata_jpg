@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Github\poz_tata_jpg\AppName\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0b7e784c02e46650d20809330068393bc46cfd2a">
+        <dex dex="C:\Github\poz_tata_jpg\AppName\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_44606bb26297f9abff34d0563d11062867318a29\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pavilion 15\.android\build-cache\29e7d62010615775d0f03edf02169c232a5a3391\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Github\poz_tata_jpg\AppName\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a987fba2bf2b4d5f044a61d20147e4dd949eea6e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pavilion 15\.android\build-cache\faf09982baa6b5f1d6cbf5504e29c95fd24401c0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Github\poz_tata_jpg\AppName\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c5c6e540b3a90a0c213900090318a776b21e0311\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pavilion 15\.android\build-cache\e15ecdca9d67faa7f4c9e7ca217cd030c967b5a2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Github\poz_tata_jpg\AppName\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6aeb7a66dc9d62d6be6b2d34323ea123dfbb85ad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pavilion 15\.android\build-cache\68ebc241760225bfece39491e1f1261b9ac1338f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Github\poz_tata_jpg\AppName\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a5e41b0044364e99e461184309e06e631d6e8312\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Github\poz_tata_jpg\AppName\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_42e99934089c370ec9a4443ceffa280a8110fa11\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Github\poz_tata_jpg\AppName\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Github\poz_tata_jpg\AppName\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_dd3a9708fca9869264531d2aeed4c3c47aaeef31\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pavilion 15\.android\build-cache\e7c8bdd72967311d2b8ec3befe6a63c771b223c7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Github\poz_tata_jpg\AppName\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_01e024b8d968eb24f0e0f65bf957212127c87c32\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pavilion 15\.android\build-cache\370545743da4910cb833d61dfd63e406e4af8c4d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Github\poz_tata_jpg\AppName\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4b262fcecd72695e1877cdb58b2c384b849d9a70\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pavilion 15\.android\build-cache\270a1e6b72654e6acf998e9eb5b1f93d72c1e7f4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Github\poz_tata_jpg\AppName\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bcb843f9269b51559fe2f57cac5af708731115ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Github\poz_tata_jpg\AppName\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_3b2ae3106ac1716f9273fd7d3c6ece7e70814a0c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pavilion 15\.android\build-cache\81bc4d48821f78d6f6d084cd8a527dac778085cf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Github\poz_tata_jpg\AppName\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_74045057c108fa8c78d64a0f6687f4d7edf56613\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pavilion 15\.android\build-cache\0dbd7e247f329fe837f2cb695239b8857da9c48a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Github\poz_tata_jpg\AppName\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_333eb49810e1e554d108a34d7ab09ae86a823573\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pavilion 15\.android\build-cache\4e4d5477b83ea6fa4abe43f19772537b1f8bb4c9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Github\poz_tata_jpg\AppName\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0d18d4f414299e09a94a7ec3429cc56fb051eccd\classes.dex" />
+    </item>
+
+</items>

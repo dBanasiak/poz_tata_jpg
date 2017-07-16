@@ -7,6 +7,15 @@ body{
   border-radius: 0;
   background-color: #ff5A00;
 }
+.navbar-default .navbar-nav>li>a{
+  color: #fff;
+}
+
+h3{
+  margin-top: 100px;
+  text-align: center;
+}
+
 a{
   color: #fff;
   transition-duration: 0.3s;

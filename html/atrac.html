@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <title>KręćKilomerty</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="Stylesheet" type="text/css" href="../css/style.css" />
+  <link rel="icon" href="../img/icon.png">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script>
+  var map;
+       var infowindow;
+
+       function initMap() {
+         var pyrmont = {lat: 52.4080441, lng: 16.93231};
+
+         map = new google.maps.Map(document.getElementById('map'), {
+           center: pyrmont,
+           zoom: 13
+         });
+
+         infowindow = new google.maps.InfoWindow();
+         var service = new google.maps.places.PlacesService(map);
+         service.nearbySearch({
+           location: pyrmont,
+           radius: 2000,
+           type: 'park'
+         }, callback);
+       }
+
+       function callback(results, status) {
+         if (status === google.maps.places.PlacesServiceStatus.OK) {
+           for (var i = 0; i < results.length; i++) {
+             createMarker(results[i]);
+           }
+         }
+       }
+
+       function createMarker(place) {
+         var placeLoc = place.geometry.location;
+         var marker = new google.maps.Marker({
+           map: map,
+           position: place.geometry.location
+         });
+
+         google.maps.event.addListener(marker, 'click', function() {
+           infowindow.setContent(place.name);
+           infowindow.open(map, this);
+         });
+       }
+  </script>
+</head>
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="../index.html">Gdzie jestem?</a></li>
+          <li><a href="food.html">Jedzenie</a></li>
+          <li><a href="shopb.html">Sklep rowerowy</a></li>
+          <li><a href="help.html">Pomoc</a></li>
+          <li><a href="atrac.html">Parki</a></li>
+          <li><a href="transp.html">Środki transportu</a></li>
+          <li><a href="shop.html">Sklep</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div id="map"></div>
+
+<script async defer
+     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArONNhtOMnsdgDNgtFCPMCZ2jv0L07tv0&libraries=places&callback=initMap">
+</script>
+
+<footer class="container-fluid text-center">
+  <p>Damian Banasiak - Mikołaj Celka - Konrad Baranek - Konrad Linkowski</p>
+</footer>
+
+</body>
+</html>

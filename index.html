@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <title>KręćKilomerty</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="Stylesheet" type="text/css" href="css/style.css" />
+  <link rel="icon" href="img/icon.png">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script>
+  var map, infoWindow;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 15
+        });
+        infoWindow = new google.maps.InfoWindow;
+
+        // Try HTML5 geolocation.
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(function(position) {
+            var pos = {
+              lat: position.coords.latitude,
+              lng: position.coords.longitude
+            };
+
+            infoWindow.setPosition(pos);
+            infoWindow.setContent('Twoja lokalizacja!');
+            infoWindow.open(map);
+            map.setCenter(pos);
+          }, function() {
+            handleLocationError(true, infoWindow, map.getCenter());
+          });
+        } else {
+          // Browser doesn't support Geolocation
+          handleLocationError(false, infoWindow, map.getCenter());
+        }
+      }
+
+      function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+        infoWindow.setPosition(pos);
+        infoWindow.setContent(browserHasGeolocation ?
+                              'Error: Nie mogliśmy Cię namierzyć :(' :
+                              'Error: Twoja przeglądarka nie jest wspierana.');
+        infoWindow.open(map);
+      }
+  </script>
+</head>
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Gdzie jestem?</a></li>
+          <li><a href="html/food.html">Jedzenie</a></li>
+          <li><a href="html/shopb.html">Sklep rowerowy</a></li>
+          <li><a href="html/help.html">Pomoc</a></li>
+          <li><a href="html/atrac.html">Parki</a></li>
+          <li><a href="html/transp.html">Środki transportu</a></li>
+          <li><a href="html/shops.html">Sklep</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div id="map"></div>
+
+<script async defer
+     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArONNhtOMnsdgDNgtFCPMCZ2jv0L07tv0&libraries=places&callback=initMap">
+</script>
+
+<footer class="container-fluid text-center">
+  <p>Damian Banasiak - Mikołaj Celka - Konrad Baranek - Konrad Linkowski</p>
+</footer>
+
+</body>
+</html>
